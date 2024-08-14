@@ -1,0 +1,17 @@
+/* Add this to your CSS file or inside a <style> tag in your component */
+.slick-dots li button:before {
+  margin-top: 30px;
+  color: #3B82F6;
+  /* Tailwind's blue-500 color */
+  opacity: 0.75;
+  font-size: 12px;
+  /* Adjust this if needed */
+}
+
+.slick-dots li.slick-active button:before {
+  color: white;
+  /* Tailwind's blue-500 color */
+  opacity: 1;
+  font-size: 12px;
+  /* Adjust this if needed */
+}

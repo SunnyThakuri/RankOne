@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* outline: 1px solid green; */
+}
+
+body {
+  background-color: #141414;
+}
+
+#svg {
+  stroke-width: 3px;
+  stroke-dasharray: 4500;
+  animation: draw 8s ease;
+}
+
+@keyframes draw {
+  0% {
+    stroke-dashoffset: 4500;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.app-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.content-wrapper {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+}
+
+[data-scroll-container] {
+  height: 100%;
+  overflow: hidden;
+}

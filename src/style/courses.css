@@ -1,0 +1,89 @@
+/* ServiceUIHome.css */
+
+.Courses {
+  position: relative;
+}
+
+.left_side {
+  margin-bottom: 20px;
+}
+
+.slider-container {
+  margin-left: 700px;
+  margin-top: 100px;
+}
+
+.slider1,
+.slider2,
+.slider3 {
+  text-align: center;
+}
+
+.slidingnumber-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  bottom: -20px;
+  /* Adjust as necessary */
+}
+
+.slick-arrow {
+  position: absolute;
+  transform: translateY(-50%);
+}
+
+.prev-arrow {
+  left: -50px;
+  /* Adjust as necessary */
+}
+
+.next-arrow {
+  right: -50px;
+  /* Adjust as necessary */
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .slider-container {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .slidingnumber-container {
+    bottom: -30px;
+    /* Adjust as necessary */
+  }
+
+  .prev-arrow {
+    left: -25px;
+    /* Adjust as necessary */
+  }
+
+  .next-arrow {
+    right: -25px;
+    /* Adjust as necessary */
+  }
+}
+
+@media (max-width: 576px) {
+  .slider-container {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .slidingnumber-container {
+    bottom: -40px;
+    /* Adjust as necessary */
+  }
+
+  .prev-arrow {
+    left: -15px;
+    /* Adjust as necessary */
+  }
+
+  .next-arrow {
+    right: -15px;
+    /* Adjust as necessary */
+  }
+}
